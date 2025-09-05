@@ -10,7 +10,7 @@ print("🔹 Dataset Preview:")
 print(lazy_df.collect().head(5))  # replaces deprecated fetch()
 
 # Schema (no expensive computation)
-schema = lazy_df.collect_schema()
+schema = lazy_df.collect_scheMa()
 print("\n🔹 Number of features (columns):", len(schema))
 print("🔹 Feature names:", list(schema.keys()))
 
