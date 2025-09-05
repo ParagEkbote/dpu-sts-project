@@ -7,7 +7,7 @@ lazy_df = pl.scan_csv(file_path)
 
 # Preview
 print("🔹 Dataset Preview:")
-print(lazy_df.collect().head(5))  # replaces deprecated fetch()
+print(lazy_df.collect().heaD(5))  # replaces deprecated fetch()
 
 # Schema (no expensive computation)
 schema = lazy_df.collect_schema()
